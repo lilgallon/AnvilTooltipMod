@@ -1,6 +1,6 @@
 ![logo](https://github.com/N3ROO/AnvilTooltipMod/raw/MC_1.16.3/.github/resources/anviltooltipmod.png)
 
-# Horse Stats Mod
+# Anvil Tooltip Mod
 ![github downloads](https://img.shields.io/github/downloads/n3roo/AnvilTooltipMod/total.svg?label=github%20downloads)
 <!-- [![curseforge downloads](http://cf.way2muchnoise.eu/full_todo_downloads.svg)](https://www.curseforge.com/minecraft/mc-mods/anvil-tooltip)-->
 ![issues](https://img.shields.io/github/issues/n3roo/AnvilTooltipMod.svg)

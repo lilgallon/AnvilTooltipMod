@@ -6,7 +6,7 @@ issueTrackerURL="https://github.com/N3ROO/AnvilTooltipMod/issues" #optional
 [[mods]] #mandatory
 modId="anviltooltipmod" #mandatory
 version="1.0.0" #mandatory
-displayName="Horse Stats Mod" #mandatory
+displayName="Anvil Tooltip Mod" #mandatory
 updateJSONURL="https://raw.githubusercontent.com/N3ROO/anviltooltipmod/MC_1.16.3/update.json" #optional
 displayURL="https://github.com/N3ROO/anviltooltipmod" #optional
 logoFile="anviltooltipmod.png" #optional (jar root)
