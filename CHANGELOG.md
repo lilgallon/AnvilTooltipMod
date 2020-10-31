@@ -1,3 +1,8 @@
+## Version 1.0.0 for Minecraft 1.12.2
+
+- Ported 1.0.0-MC1.16.3 to MC1.12.2
+- Removed enchantment cost which isn't relevant
+
 ## Version 1.0.0 for Minecraft 1.16.3
 
 *Should work with Forge 1.16.1 and later*

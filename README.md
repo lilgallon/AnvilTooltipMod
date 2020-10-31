@@ -2,10 +2,9 @@
 
 # Anvil Tooltip Mod
 ![github downloads](https://img.shields.io/github/downloads/n3roo/AnvilTooltipMod/total.svg?label=github%20downloads)
-<!-- [![curseforge downloads](http://cf.way2muchnoise.eu/full_todo_downloads.svg)](https://www.curseforge.com/minecraft/mc-mods/anvil-tooltip)-->
+[![curseforge downloads](http://cf.way2muchnoise.eu/full_409254_downloads.svg)](https://www.curseforge.com/minecraft/mc-mods/anvil-tooltip)
 ![issues](https://img.shields.io/github/issues/n3roo/AnvilTooltipMod.svg)
-![release](https://img.shields.io/github/release/n3roo/AnvilTooltipMod.svg)
-![build](https://img.shields.io/github/workflow/status/N3ROO/AnvilTooltipMod/Build%20MC1.16.3?label=build%201.16.3)
+![build](https://img.shields.io/github/workflow/status/N3ROO/AnvilTooltipMod/Build%20MC1.12.2?label=build%201.12.2)
 
 A lightweight mod that shows the hidden number of uses of an item. 
 

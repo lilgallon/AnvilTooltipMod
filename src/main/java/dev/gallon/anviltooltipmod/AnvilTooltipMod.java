@@ -7,50 +7,46 @@
 * Public License along with this program.
 */
 
-package dev.nero.anviltooltipmod;
+package dev.gallon.anviltooltipmod;
 
-import net.minecraft.item.EnchantedBookItem;
+import net.minecraft.client.resources.I18n;
+import net.minecraft.init.Blocks;
+import net.minecraft.item.ItemEnchantedBook;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.Items;
-import net.minecraft.util.text.TextFormatting;
-import net.minecraft.util.text.TranslationTextComponent;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.entity.player.ItemTooltipEvent;
-import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 
-@Mod("anviltooltipmod")
+@Mod(modid = AnvilTooltipMod.MODID, name = AnvilTooltipMod.NAME, version = AnvilTooltipMod.VERSION)
 public class AnvilTooltipMod
 {
+    public static final String MODID = "anviltooltipmod";
+    public static final String NAME = "Anvil Tooltip Mod";
+    public static final String VERSION = "1.0.0";
+
     public AnvilTooltipMod() {
-        MinecraftForge.EVENT_BUS.addListener(this::addItemTooltip);
+        MinecraftForge.EVENT_BUS.register(this);
     }
 
     @SubscribeEvent
     public void addItemTooltip(ItemTooltipEvent event) {
         ItemStack itemStack = event.getItemStack();
 
-        if (itemStack.isEnchantable() || itemStack.isEnchanted() || (itemStack.getItem() instanceof EnchantedBookItem)) {
+        if (itemStack.isItemEnchantable() || itemStack.isItemEnchanted() || (itemStack.getItem() instanceof ItemEnchantedBook)) {
             // Repair cost = 2^n - 1 where n is the number of times the item has been previously worked
             int repairCost = itemStack.getRepairCost();
             // So anvilUses = n = log_2(repairCost + 1) + 1 <- because we start at 1 and not 0
             int anvilUses = log2(repairCost + 1); // log base 2
 
             // Empty line
-            event.getToolTip().add(new TranslationTextComponent(""));
+            event.getToolTip().add("");
 
             // Number of enchantments
-            event.getToolTip().add(
-                    new TranslationTextComponent(Items.ANVIL.getTranslationKey())
-                            .func_240699_a_(TextFormatting.GRAY)
-                            .func_240702_b_(": " + anvilUses)
-            );
+            event.getToolTip().add(Blocks.ANVIL.getLocalizedName() + ": " + anvilUses);
 
-            // Repair cost base
-            event.getToolTip().add(
-                    new TranslationTextComponent("container.repair.cost", itemStack.getRepairCost())
-                            .func_240699_a_(TextFormatting.GRAY)
-            );
+            // Repair cost base (not relevant in 1.12.2)
+            // event.getToolTip().add(I18n.format("container.repair.cost", itemStack.getRepairCost()));
         }
     }
 
