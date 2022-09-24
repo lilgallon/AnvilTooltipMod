@@ -1,4 +1,4 @@
-![logo](https://github.com/lilgallon/AnvilTooltipMod/raw/MC_1.18.2/.github/resources/anviltooltipmod.png)
+![logo](https://github.com/lilgallon/AnvilTooltipMod/raw/MC_1.19.2/.github/resources/anviltooltipmod.png)
 
 # Anvil Tooltip Mod
 ![github downloads](https://img.shields.io/github/downloads/lilgallon/AnvilTooltipMod/total.svg?label=github%20downloads)
@@ -9,7 +9,7 @@
 
 A lightweight mod that shows the hidden number of uses of an item. 
 
-![demo](https://github.com/lilgallon/AnvilTooltipMod/raw/MC_1.18.2/.github/resources/demo-1.0.0.png)
+![demo](https://github.com/lilgallon/AnvilTooltipMod/raw/MC_1.19.2/.github/resources/demo-1.0.0.png)
 
 ## Contributing
 Don't hesitate to contribute. Even if it's your first time, it's never too late to learn!
