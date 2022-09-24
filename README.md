@@ -1,15 +1,15 @@
-![logo](https://github.com/N3ROO/AnvilTooltipMod/raw/MC_1.16.3/.github/resources/anviltooltipmod.png)
+![logo](https://github.com/lilgallon/AnvilTooltipMod/raw/MC_1.18.2/.github/resources/anviltooltipmod.png)
 
 # Anvil Tooltip Mod
-![github downloads](https://img.shields.io/github/downloads/n3roo/AnvilTooltipMod/total.svg?label=github%20downloads)
+![github downloads](https://img.shields.io/github/downloads/lilgallon/AnvilTooltipMod/total.svg?label=github%20downloads)
 <!-- [![curseforge downloads](http://cf.way2muchnoise.eu/full_todo_downloads.svg)](https://www.curseforge.com/minecraft/mc-mods/anvil-tooltip)-->
-![issues](https://img.shields.io/github/issues/n3roo/AnvilTooltipMod.svg)
-![release](https://img.shields.io/github/release/n3roo/AnvilTooltipMod.svg)
-![build](https://img.shields.io/github/workflow/status/N3ROO/AnvilTooltipMod/Build%20MC1.16.3?label=build%201.16.3)
+![issues](https://img.shields.io/github/issues/lilgallon/AnvilTooltipMod.svg)
+![release](https://img.shields.io/github/release/lilgallon/AnvilTooltipMod.svg)
+![build](https://img.shields.io/github/workflow/status/lilgallon/AnvilTooltipMod/Build%20MC1.18.2?label=build%201.18.2)
 
 A lightweight mod that shows the hidden number of uses of an item. 
 
-![demo](https://github.com/N3ROO/AnvilTooltipMod/raw/MC_1.16.3/.github/resources/demo-1.0.0.png)
+![demo](https://github.com/lilgallon/AnvilTooltipMod/raw/MC_1.18.2/.github/resources/demo-1.0.0.png)
 
 ## Contributing
 Don't hesitate to contribute. Even if it's your first time, it's never too late to learn!
@@ -21,4 +21,4 @@ I will most likely accept your pull request even if it's just a typo fix! :)
 
 ## Credits & Acknowledgements
 
-- [@N3ROO](https://github.com/N3ROO)  - *Main developer*
+- [@lilgallon](https://github.com/lilgallon)  - *Main developer*

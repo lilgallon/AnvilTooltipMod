@@ -1,17 +1,17 @@
 modLoader="javafml" #mandatory
-loaderVersion="[32,)" #mandatory
+loaderVersion="[40,)" #mandatory
 license="GNU GPL-3.0"
-issueTrackerURL="https://github.com/N3ROO/AnvilTooltipMod/issues" #optional
+issueTrackerURL="https://github.com/lilgallon/AnvilTooltipMod/issues" #optional
 
 [[mods]] #mandatory
 modId="anviltooltipmod" #mandatory
 version="1.0.0" #mandatory
 displayName="Anvil Tooltip Mod" #mandatory
-updateJSONURL="https://raw.githubusercontent.com/N3ROO/anviltooltipmod/MC_1.16.3/update.json" #optional
-displayURL="https://github.com/N3ROO/anviltooltipmod" #optional
+updateJSONURL="https://raw.githubusercontent.com/lilgallon/anviltooltipmod/MC_1.18.2/update.json" #optional
+displayURL="https://github.com/lilgallon/anviltooltipmod" #optional
 logoFile="anviltooltipmod.png" #optional (jar root)
 # credits="" #optional
-authors="nero (@N3ROO on Github)" #optional
+authors="nero (@lilgallon on Github)" #optional
 description='''
 A lightweight mod that shows the horses' stats (health, jump height and speed)
 
@@ -23,7 +23,7 @@ modId="forge" #mandatory
 # Does this dependency have to exist - if not, ordering below must be specified
 mandatory=true #mandatory
 # The version range of the dependency
-versionRange="[32,)" #mandatory
+versionRange="[40,)" #mandatory
 # An ordering relationship for the dependency - BEFORE or AFTER required if the relationship is not mandatory
 ordering="NONE"
 # Side this dependency is applied on - BOTH, CLIENT or SERVER
